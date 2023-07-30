@@ -20,7 +20,7 @@
 
   .container img {
     width: 100%;
-    height: 100vh;
+    height: 110vh;
     position: absolute;
     object-fit: cover;
     z-index: -1;
@@ -37,8 +37,9 @@
   .content {
     width: 100%;
     background-color: black;
-    min-height: 100vh;
+    min-height: 110vh;
     z-index: 2;
+    position: absolute;
   }
 
   .content-images {
@@ -50,6 +51,7 @@
   }
 
   .japan {
+    margin: 2rem;
     width: 40vw;
   }
 
