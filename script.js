@@ -16,3 +16,21 @@ let scene = new ScrollMagic.Scene({
     .setTween(timeline)
     .setPin("section")
     .addTo(controller);
+
+let controller2 = new ScrollMagic.Controller();
+let timeline2 = new TimelineMax();
+
+timeline2
+    // .to('.content', 3, {top: '0%'}, '-=3')
+    .fromTo('.content-images2', {opacity: 0}, {opacity: 1, duration: 3});
+
+let scene2 = new ScrollMagic.Scene({
+    triggerElement: ".content-images2",
+    duration: "100%",
+    triggerHook: 0,
+})
+    .setTween(timeline2)
+    .setPin(".content-images2")
+    .addTo(controller2);
+
+
