@@ -50,6 +50,14 @@
     text-align: center;
   }
 
+  .content-images2 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 60vh;
+    text-align: center;
+  }
+
   .japan {
     margin: 2rem;
     width: 40vw;
@@ -69,3 +77,5 @@
   .japan-gate-link:hover {
     cursor: pointer;
   }
+
+
