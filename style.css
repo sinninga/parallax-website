@@ -55,7 +55,17 @@
     width: 40vw;
   }
 
+  .text-container {
+    display: flex;
+    justify-content: space-around;
+  }
+
   .text {
-    padding: 2rem 20rem;
+    width: 50%;
+    padding: 2rem 10rem;
     font-size: 1.1rem;
+  }
+
+  .japan-gate-link:hover {
+    cursor: pointer;
   }
