@@ -10,7 +10,7 @@ timeline
 
 let scene = new ScrollMagic.Scene({
     triggerElement: "section",
-    duration: "400%",
+    duration: "300%",
     triggerHook: 0,
 })
     .setTween(timeline)
